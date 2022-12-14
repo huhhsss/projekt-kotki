@@ -1,0 +1,33 @@
+from time import sleep
+
+name = "y/n"
+
+print("All the cats were startled. Never in the houndreds of years there was such accident.\n\n")
+sleep(1)
+print("The new ruler must have run away...\n\n")
+sleep(1)
+print("Hint: click a number and press enter on your keyboard to choose an option\n\n")
+question_1 = int(input("Come through the defence towers?\n 1 - yes\n"))
+
+if question_1 == 1:
+    print (f"\n\n{name} escaped... They wondered and wondered for so long, they started to get hungry.\n Suddenly, from the deep of the forest an evil troll jumpscared {name}.\n As scary as it was, this was still a great opportunity\n to gain something to eat.\n\n")
+
+question_2 = int(input("Do you want to kill this evil troll?\n 1 - yes\n"))
+
+if question_2 == 1:
+    print("hint: to fight choose element you want to use\n and select it by typing one of options on your keyboard\n then keep choosing the attacks you want to use\ until your enemy is dead")
+    enemyhp = 20
+    enemystrength = 3
+    fight()
+
+
+print("congrats! You succesfully finished your tutorial! Good luck with your next tasks Adventurer!")
+
+#lvl 0 the news
+
+print("\n\n\n ----------------------------------= LEVEL 0 == THE NEWS =------------------------------------\n\n\n")
+
+
+
+
+print(f"After delicious  ")
